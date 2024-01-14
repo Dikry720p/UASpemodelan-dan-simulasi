@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+	font-family: "poppins", sans-serif;
+}
+
+body {
+    background-image: url("../asset/img/bg.jpeg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+ display: flex;
+ min-height: 500px;
+ max-height: 700px;
+ overflow: scroll;
+}
+
+.modal-content{
+    background-image: url("../asset/img/bgmodal.jpg");
+    background-size: 270px;
+}
+
+.navbar{
+    border-radius: 7px;
+    background-color: #ffffff5b;  
+}
+
+.mc {
+    color: #FFA500;
+}
+
+.judul h1 {
+    color: #FFA500;
+}
+
+.navbar-brand img {
+    width: 50px;
+    border-radius: 9px;
+    animation: shake 3s ease-in-out infinite; 
+}
+
+
+@keyframes shake {
+    0%, 100% {
+        transform: rotate(0deg); 
+    }
+    25% {
+        transform: rotate(-5deg); 
+    }
+    50% {
+        transform: rotate(5deg); 
+    }
+    75% {
+        transform: rotate(-5deg);
+    }
+}
+
+.container .nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.mc {
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card {
+    background-color: #ffffffe7;
+}
+
+#generate {
+    transition: transform 0.3s ease-in-out;
+}
+
+#generate:hover {
+    animation: kseimpulan 0.5s ease-in-out infinite; 
+}
+
+@keyframes kseimpulan {
+    0%, 100% {
+        transform: translateY(0); 
+    }
+    25%, 75% {
+        transform: translateY(-5px); 
+    }
+    50% {
+        transform: translateY(5px); 
+    }
+}
+
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 50px; /* Sesuaikan dengan ukuran logo */
+    height: 50px;
+    margin-right: 10px;
+}
+
+.footer-logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.footer-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer-social a {
+    margin-right: 10px;
+}
+
+.footer-social img {
+    width: 30px; /* Sesuaikan dengan ukuran ikon media sosial */
+    height: 30px;
+    border-radius: 50%;
+}
+
+@keyframes bounceIn {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+.animated-text {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.animated-text span {
+    display: inline-block;
+    animation: bounceIn 3s ease-in-out ; /* Animasi bounce per huruf */
+}
+
+        /* Perlambatan animasi per huruf */
+        .animated-text span:nth-child(1) { animation-duration: 1s; }
+        .animated-text span:nth-child(2) { animation-duration: 1.2s; }
+        .animated-text span:nth-child(3) { animation-duration: 1.4s; }
+        .animated-text span:nth-child(4) { animation-duration: 1.6s; }
+        .animated-text span:nth-child(5) { animation-duration: 1.8s; }
+        .animated-text span:nth-child(6) { animation-duration: 2s; }
+        .animated-text span:nth-child(7) { animation-duration: 2.2s; }
+        .animated-text span:nth-child(8) { animation-duration: 2.4s; }
+        .animated-text span:nth-child(9) { animation-duration: 2.6s; }
+        .animated-text span:nth-child(10) { animation-duration: 2.8s; }
+        /* ... dan seterusnya */
+
+        /* waktu *//* waktu *//* waktu *//* waktu *//* waktu */
+          
+          .datetime-container {
+            text-align: center;
+          }
+          
+          .current-time {
+            font-size: 40px;
+            margin: 0;
+            color: #FFA500;
+          }
+          
+          .current-date {
+            font-size: 1.5em;
+            margin: 0;
+          }
+          
